@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Typed Website</title>
+    <!-----------------LINK CSS FILE---------------------->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <h1 class="logo"><span class="logo-1">F</span>ast <span class="logo-2">C</span>oder</h1>
+            <ul>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="text-box">
+            <h1>I'm <span class="text"></span></h1>
+            <p>Welcome to our Fast Coder channel.<br> Please subscribe our channel and press the bell icon</p>
+            <button class="btn-1">Contact Now</button>
+            <button class="btn-2">Download CV</button>
+        </div>
+        <img src="picture.png">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+   <script>
+     var typed= new Typed(".text",{
+         strings:["JH Salman","web developer", "UI designer"],
+         typeSpeed:100,
+         backSpeed:100,
+         loop:true
+     })
+   </script>
+</body>
+</html>
